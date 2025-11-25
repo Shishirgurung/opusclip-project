@@ -22,7 +22,12 @@ try:
     from opus_processor import OpusProcessor
 except ImportError:
     from python_caption_service.opus_processor import OpusProcessor
-import yt_dlp
+
+try:
+    import yt_dlp
+except ImportError:
+    print("Warning: yt_dlp not installed")
+
 from faster_whisper import WhisperModel
 
 # Fix Windows console encoding for Hindi/Unicode characters
