@@ -13,8 +13,15 @@ from typing import List, Dict, Any
 from pathlib import Path
 import json
 import subprocess
-from hook_detector import HookDetector, parse_whisper_segments
-from opus_processor import OpusProcessor
+try:
+    from hook_detector import HookDetector, parse_whisper_segments
+except ImportError:
+    from python_caption_service.hook_detector import HookDetector, parse_whisper_segments
+
+try:
+    from opus_processor import OpusProcessor
+except ImportError:
+    from python_caption_service.opus_processor import OpusProcessor
 import yt_dlp
 from faster_whisper import WhisperModel
 
