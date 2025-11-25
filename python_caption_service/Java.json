@@ -1,0 +1,1087 @@
+{
+  "segments": [
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.040000000000004,
+      "end": 6.8,
+      "text": " Javascript, an embarrassing toy language, used exclusively to build things it's not supposed",
+      "tokens": [
+        50364,
+        508,
+        37331,
+        5944,
+        11,
+        364,
+        17299,
+        12058,
+        2856,
+        11,
+        1143,
+        20638,
+        281,
+        1322,
+        721,
+        309,
+        311,
+        406,
+        3442,
+        50712
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 2.040000000000004,
+          "end": 2.56,
+          "word": " Javascript,",
+          "probability": 0.7229598859945933
+        },
+        {
+          "start": 2.74,
+          "end": 3.06,
+          "word": " an",
+          "probability": 0.7617284655570984
+        },
+        {
+          "start": 3.06,
+          "end": 3.54,
+          "word": " embarrassing",
+          "probability": 0.9552955627441406
+        },
+        {
+          "start": 3.54,
+          "end": 3.94,
+          "word": " toy",
+          "probability": 0.8788957595825195
+        },
+        {
+          "start": 3.94,
+          "end": 4.36,
+          "word": " language,",
+          "probability": 0.9911337494850159
+        },
+        {
+          "start": 4.52,
+          "end": 4.66,
+          "word": " used",
+          "probability": 0.8760520815849304
+        },
+        {
+          "start": 4.66,
+          "end": 5.26,
+          "word": " exclusively",
+          "probability": 0.9890135526657104
+        },
+        {
+          "start": 5.26,
+          "end": 5.58,
+          "word": " to",
+          "probability": 0.9979172348976135
+        },
+        {
+          "start": 5.58,
+          "end": 5.84,
+          "word": " build",
+          "probability": 0.9927917718887329
+        },
+        {
+          "start": 5.84,
+          "end": 6.1,
+          "word": " things",
+          "probability": 0.9874719977378845
+        },
+        {
+          "start": 6.1,
+          "end": 6.38,
+          "word": " it's",
+          "probability": 0.9268839359283447
+        },
+        {
+          "start": 6.38,
+          "end": 6.5,
+          "word": " not",
+          "probability": 0.9829461574554443
+        },
+        {
+          "start": 6.5,
+          "end": 6.8,
+          "word": " supposed",
+          "probability": 0.9959800243377686
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.8,
+      "end": 7.12,
+      "text": " to.",
+      "tokens": [
+        50712,
+        281,
+        13,
+        50762
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 6.8,
+          "end": 7.12,
+          "word": " to.",
+          "probability": 0.9981335997581482
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7.24,
+      "end": 11.42,
+      "text": " It was created by Brendan Ike in 1995, who was given requirements to build a language",
+      "tokens": [
+        50762,
+        467,
+        390,
+        2942,
+        538,
+        48484,
+        286,
+        330,
+        294,
+        22601,
+        11,
+        567,
+        390,
+        2212,
+        7728,
+        281,
+        1322,
+        257,
+        2856,
+        50938
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 7.24,
+          "end": 7.32,
+          "word": " It",
+          "probability": 0.9830576777458191
+        },
+        {
+          "start": 7.32,
+          "end": 7.44,
+          "word": " was",
+          "probability": 0.9982326030731201
+        },
+        {
+          "start": 7.44,
+          "end": 7.78,
+          "word": " created",
+          "probability": 0.9957181811332703
+        },
+        {
+          "start": 7.78,
+          "end": 8.0,
+          "word": " by",
+          "probability": 0.9970042109489441
+        },
+        {
+          "start": 8.0,
+          "end": 8.28,
+          "word": " Brendan",
+          "probability": 0.8608147501945496
+        },
+        {
+          "start": 8.28,
+          "end": 8.68,
+          "word": " Ike",
+          "probability": 0.3216719627380371
+        },
+        {
+          "start": 8.68,
+          "end": 8.78,
+          "word": " in",
+          "probability": 0.970601499080658
+        },
+        {
+          "start": 8.78,
+          "end": 9.32,
+          "word": " 1995,",
+          "probability": 0.9952912330627441
+        },
+        {
+          "start": 9.34,
+          "end": 9.78,
+          "word": " who",
+          "probability": 0.9875405430793762
+        },
+        {
+          "start": 9.78,
+          "end": 9.92,
+          "word": " was",
+          "probability": 0.8788283467292786
+        },
+        {
+          "start": 9.92,
+          "end": 10.04,
+          "word": " given",
+          "probability": 0.9902798533439636
+        },
+        {
+          "start": 10.04,
+          "end": 10.58,
+          "word": " requirements",
+          "probability": 0.9723868370056152
+        },
+        {
+          "start": 10.58,
+          "end": 10.84,
+          "word": " to",
+          "probability": 0.9926376342773438
+        },
+        {
+          "start": 10.84,
+          "end": 11.02,
+          "word": " build",
+          "probability": 0.9937037825584412
+        },
+        {
+          "start": 11.02,
+          "end": 11.12,
+          "word": " a",
+          "probability": 0.9975306391716003
+        },
+        {
+          "start": 11.12,
+          "end": 11.42,
+          "word": " language",
+          "probability": 0.9961366057395935
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.42,
+      "end": 13.18,
+      "text": " like Java, but for f**kards.",
+      "tokens": [
+        50938,
+        411,
+        10745,
+        11,
+        457,
+        337,
+        283,
+        4852,
+        74,
+        2287,
+        13,
+        51034
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 11.42,
+          "end": 11.66,
+          "word": " like",
+          "probability": 0.9468125700950623
+        },
+        {
+          "start": 11.66,
+          "end": 12.06,
+          "word": " Java,",
+          "probability": 0.6037421822547913
+        },
+        {
+          "start": 12.36,
+          "end": 12.5,
+          "word": " but",
+          "probability": 0.9876601099967957
+        },
+        {
+          "start": 12.5,
+          "end": 12.68,
+          "word": " for",
+          "probability": 0.9619383215904236
+        },
+        {
+          "start": 12.68,
+          "end": 13.18,
+          "word": " f**kards.",
+          "probability": 0.2806190997362137
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 13.34,
+      "end": 15.84,
+      "text": " It only took him seven days to execute flawlessly.",
+      "tokens": [
+        51034,
+        467,
+        787,
+        1890,
+        796,
+        3407,
+        1708,
+        281,
+        14483,
+        13717,
+        12048,
+        13,
+        51170
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 13.34,
+          "end": 13.4,
+          "word": " It",
+          "probability": 0.9926174283027649
+        },
+        {
+          "start": 13.4,
+          "end": 13.58,
+          "word": " only",
+          "probability": 0.989790141582489
+        },
+        {
+          "start": 13.58,
+          "end": 13.76,
+          "word": " took",
+          "probability": 0.9993605017662048
+        },
+        {
+          "start": 13.76,
+          "end": 13.9,
+          "word": " him",
+          "probability": 0.9889322519302368
+        },
+        {
+          "start": 13.9,
+          "end": 14.16,
+          "word": " seven",
+          "probability": 0.6439904570579529
+        },
+        {
+          "start": 14.16,
+          "end": 14.44,
+          "word": " days",
+          "probability": 0.998513400554657
+        },
+        {
+          "start": 14.44,
+          "end": 14.7,
+          "word": " to",
+          "probability": 0.9968382120132446
+        },
+        {
+          "start": 14.7,
+          "end": 15.2,
+          "word": " execute",
+          "probability": 0.9842121005058289
+        },
+        {
+          "start": 15.2,
+          "end": 15.84,
+          "word": " flawlessly.",
+          "probability": 0.991765946149826
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 16.06,
+      "end": 20.74,
+      "text": " It became an overnight dumpster fire, but shit really hit the fan in 2005 when Ryan Dull",
+      "tokens": [
+        51170,
+        467,
+        3062,
+        364,
+        13935,
+        11430,
+        3120,
+        2610,
+        11,
+        457,
+        4611,
+        534,
+        2045,
+        264,
+        3429,
+        294,
+        14394,
+        562,
+        9116,
+        413,
+        858,
+        51402
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 16.06,
+          "end": 16.12,
+          "word": " It",
+          "probability": 0.9934893846511841
+        },
+        {
+          "start": 16.12,
+          "end": 16.38,
+          "word": " became",
+          "probability": 0.9963263869285583
+        },
+        {
+          "start": 16.38,
+          "end": 16.56,
+          "word": " an",
+          "probability": 0.9975932240486145
+        },
+        {
+          "start": 16.56,
+          "end": 16.9,
+          "word": " overnight",
+          "probability": 0.9846788644790649
+        },
+        {
+          "start": 16.9,
+          "end": 17.3,
+          "word": " dumpster",
+          "probability": 0.9904851913452148
+        },
+        {
+          "start": 17.3,
+          "end": 17.64,
+          "word": " fire,",
+          "probability": 0.8831707835197449
+        },
+        {
+          "start": 17.76,
+          "end": 18.0,
+          "word": " but",
+          "probability": 0.992553174495697
+        },
+        {
+          "start": 18.0,
+          "end": 18.22,
+          "word": " shit",
+          "probability": 0.9461178183555603
+        },
+        {
+          "start": 18.22,
+          "end": 18.52,
+          "word": " really",
+          "probability": 0.9898166656494141
+        },
+        {
+          "start": 18.52,
+          "end": 18.68,
+          "word": " hit",
+          "probability": 0.9987320303916931
+        },
+        {
+          "start": 18.68,
+          "end": 18.8,
+          "word": " the",
+          "probability": 0.992757260799408
+        },
+        {
+          "start": 18.8,
+          "end": 18.98,
+          "word": " fan",
+          "probability": 0.9911681413650513
+        },
+        {
+          "start": 18.98,
+          "end": 19.08,
+          "word": " in",
+          "probability": 0.9965105652809143
+        },
+        {
+          "start": 19.08,
+          "end": 19.8,
+          "word": " 2005",
+          "probability": 0.9952599406242371
+        },
+        {
+          "start": 19.8,
+          "end": 20.18,
+          "word": " when",
+          "probability": 0.45136481523513794
+        },
+        {
+          "start": 20.18,
+          "end": 20.44,
+          "word": " Ryan",
+          "probability": 0.9859704375267029
+        },
+        {
+          "start": 20.44,
+          "end": 20.74,
+          "word": " Dull",
+          "probability": 0.6551553010940552
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 20.74,
+      "end": 24.18,
+      "text": " made the epic mistake of bringing Javascript to the server with no JS.",
+      "tokens": [
+        51402,
+        1027,
+        264,
+        13581,
+        6146,
+        295,
+        5062,
+        508,
+        37331,
+        5944,
+        281,
+        264,
+        7154,
+        365,
+        572,
+        33063,
+        13,
+        51604
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 20.74,
+          "end": 20.94,
+          "word": " made",
+          "probability": 0.9806088805198669
+        },
+        {
+          "start": 20.94,
+          "end": 21.12,
+          "word": " the",
+          "probability": 0.9894589185714722
+        },
+        {
+          "start": 21.12,
+          "end": 21.34,
+          "word": " epic",
+          "probability": 0.9838964939117432
+        },
+        {
+          "start": 21.34,
+          "end": 21.74,
+          "word": " mistake",
+          "probability": 0.9971972703933716
+        },
+        {
+          "start": 21.74,
+          "end": 21.96,
+          "word": " of",
+          "probability": 0.9958449006080627
+        },
+        {
+          "start": 21.96,
+          "end": 22.18,
+          "word": " bringing",
+          "probability": 0.9985068440437317
+        },
+        {
+          "start": 22.18,
+          "end": 22.74,
+          "word": " Javascript",
+          "probability": 0.9601898789405823
+        },
+        {
+          "start": 22.74,
+          "end": 22.9,
+          "word": " to",
+          "probability": 0.9941908717155457
+        },
+        {
+          "start": 22.9,
+          "end": 23.0,
+          "word": " the",
+          "probability": 0.9803549647331238
+        },
+        {
+          "start": 23.0,
+          "end": 23.28,
+          "word": " server",
+          "probability": 0.9968698620796204
+        },
+        {
+          "start": 23.28,
+          "end": 23.58,
+          "word": " with",
+          "probability": 0.9807038307189941
+        },
+        {
+          "start": 23.58,
+          "end": 23.8,
+          "word": " no",
+          "probability": 0.7543918490409851
+        },
+        {
+          "start": 23.8,
+          "end": 24.18,
+          "word": " JS.",
+          "probability": 0.5447739958763123
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 24.52,
+      "end": 28.52,
+      "text": " Just like Alfred Nobel and Dynamite, he would go on to apologize for his invention many",
+      "tokens": [
+        51604,
+        1449,
+        411,
+        28327,
+        24611,
+        293,
+        22947,
+        642,
+        11,
+        415,
+        576,
+        352,
+        322,
+        281,
+        12328,
+        337,
+        702,
+        22265,
+        867,
+        51789
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 24.52,
+          "end": 24.74,
+          "word": " Just",
+          "probability": 0.9901108145713806
+        },
+        {
+          "start": 24.74,
+          "end": 25.04,
+          "word": " like",
+          "probability": 0.9981033802032471
+        },
+        {
+          "start": 25.04,
+          "end": 25.3,
+          "word": " Alfred",
+          "probability": 0.9232264161109924
+        },
+        {
+          "start": 25.3,
+          "end": 25.46,
+          "word": " Nobel",
+          "probability": 0.7727981209754944
+        },
+        {
+          "start": 25.46,
+          "end": 25.88,
+          "word": " and",
+          "probability": 0.9736552834510803
+        },
+        {
+          "start": 25.88,
+          "end": 26.36,
+          "word": " Dynamite,",
+          "probability": 0.9317495822906494
+        },
+        {
+          "start": 26.42,
+          "end": 26.48,
+          "word": " he",
+          "probability": 0.988943338394165
+        },
+        {
+          "start": 26.48,
+          "end": 26.58,
+          "word": " would",
+          "probability": 0.9754837155342102
+        },
+        {
+          "start": 26.58,
+          "end": 26.7,
+          "word": " go",
+          "probability": 0.9938151836395264
+        },
+        {
+          "start": 26.7,
+          "end": 26.86,
+          "word": " on",
+          "probability": 0.9549564719200134
+        },
+        {
+          "start": 26.86,
+          "end": 27.0,
+          "word": " to",
+          "probability": 0.9945312142372131
+        },
+        {
+          "start": 27.0,
+          "end": 27.4,
+          "word": " apologize",
+          "probability": 0.9745604395866394
+        },
+        {
+          "start": 27.4,
+          "end": 27.76,
+          "word": " for",
+          "probability": 0.9915731549263
+        },
+        {
+          "start": 27.76,
+          "end": 27.9,
+          "word": " his",
+          "probability": 0.9755938053131104
+        },
+        {
+          "start": 27.9,
+          "end": 28.24,
+          "word": " invention",
+          "probability": 0.8205044865608215
+        },
+        {
+          "start": 28.24,
+          "end": 28.52,
+          "word": " many",
+          "probability": 0.9838016629219055
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 28.52,
+      "end": 29.04,
+      "text": " years later.",
+      "tokens": [
+        51789,
+        924,
+        1780,
+        13,
+        51839
+      ],
+      "avg_logprob": -0.2084918785840273,
+      "compression_ratio": 1.533724340175953,
+      "no_speech_prob": 0.07646635919809341,
+      "words": [
+        {
+          "start": 28.52,
+          "end": 28.74,
+          "word": " years",
+          "probability": 0.9974324107170105
+        },
+        {
+          "start": 28.74,
+          "end": 29.04,
+          "word": " later.",
+          "probability": 0.995248019695282
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 10,
+      "seek": 2904,
+      "start": 29.04,
+      "end": 31.18,
+      "text": " And it's my fault, and I'm very sorry.",
+      "tokens": [
+        50364,
+        400,
+        309,
+        311,
+        452,
+        7441,
+        11,
+        293,
+        286,
+        478,
+        588,
+        2597,
+        13,
+        50492
+      ],
+      "avg_logprob": -0.35434077002785425,
+      "compression_ratio": 1.1900826446280992,
+      "no_speech_prob": 0.49567562341690063,
+      "words": [
+        {
+          "start": 29.04,
+          "end": 29.38,
+          "word": " And",
+          "probability": 0.20690885186195374
+        },
+        {
+          "start": 29.38,
+          "end": 29.56,
+          "word": " it's",
+          "probability": 0.9149755835533142
+        },
+        {
+          "start": 29.56,
+          "end": 29.68,
+          "word": " my",
+          "probability": 0.9830443263053894
+        },
+        {
+          "start": 29.68,
+          "end": 30.0,
+          "word": " fault,",
+          "probability": 0.9851358532905579
+        },
+        {
+          "start": 30.14,
+          "end": 30.48,
+          "word": " and",
+          "probability": 0.9603796601295471
+        },
+        {
+          "start": 30.48,
+          "end": 30.68,
+          "word": " I'm",
+          "probability": 0.9826149046421051
+        },
+        {
+          "start": 30.68,
+          "end": 30.84,
+          "word": " very",
+          "probability": 0.9639062285423279
+        },
+        {
+          "start": 30.84,
+          "end": 31.18,
+          "word": " sorry.",
+          "probability": 0.997210681438446
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 11,
+      "seek": 2904,
+      "start": 31.54,
+      "end": 35.66,
+      "text": " The language is designed for only one use case, to annoy people with browser pop-ups,",
+      "tokens": [
+        50492,
+        440,
+        2856,
+        307,
+        4761,
+        337,
+        787,
+        472,
+        764,
+        1389,
+        11,
+        281,
+        8759,
+        561,
+        365,
+        11185,
+        1665,
+        12,
+        7528,
+        11,
+        50716
+      ],
+      "avg_logprob": -0.35434077002785425,
+      "compression_ratio": 1.1900826446280992,
+      "no_speech_prob": 0.49567562341690063,
+      "words": [
+        {
+          "start": 31.54,
+          "end": 31.62,
+          "word": " The",
+          "probability": 0.8797516822814941
+        },
+        {
+          "start": 31.62,
+          "end": 31.9,
+          "word": " language",
+          "probability": 0.9820544719696045
+        },
+        {
+          "start": 31.9,
+          "end": 32.1,
+          "word": " is",
+          "probability": 0.9916753768920898
+        },
+        {
+          "start": 32.1,
+          "end": 32.42,
+          "word": " designed",
+          "probability": 0.9967957139015198
+        },
+        {
+          "start": 32.42,
+          "end": 32.68,
+          "word": " for",
+          "probability": 0.9931188821792603
+        },
+        {
+          "start": 32.68,
+          "end": 32.96,
+          "word": " only",
+          "probability": 0.9959936141967773
+        },
+        {
+          "start": 32.96,
+          "end": 33.16,
+          "word": " one",
+          "probability": 0.9332818388938904
+        },
+        {
+          "start": 33.16,
+          "end": 33.4,
+          "word": " use",
+          "probability": 0.9872614145278931
+        },
+        {
+          "start": 33.4,
+          "end": 33.64,
+          "word": " case,",
+          "probability": 0.9832795858383179
+        },
+        {
+          "start": 33.9,
+          "end": 33.98,
+          "word": " to",
+          "probability": 0.9363858699798584
+        },
+        {
+          "start": 33.98,
+          "end": 34.2,
+          "word": " annoy",
+          "probability": 0.9599136114120483
+        },
+        {
+          "start": 34.2,
+          "end": 34.54,
+          "word": " people",
+          "probability": 0.9983900785446167
+        },
+        {
+          "start": 34.54,
+          "end": 34.76,
+          "word": " with",
+          "probability": 0.9946202039718628
+        },
+        {
+          "start": 34.76,
+          "end": 35.04,
+          "word": " browser",
+          "probability": 0.9815346002578735
+        },
+        {
+          "start": 35.04,
+          "end": 35.32,
+          "word": " pop",
+          "probability": 0.9473789930343628
+        },
+        {
+          "start": 35.32,
+          "end": 35.66,
+          "word": "-ups,",
+          "probability": 0.7377380132675171
+        }
+      ],
+      "temperature": 0.0
+    },
+    {
+      "id": 12,
+      "seek": 2904,
+      "start": 35.82,
+      "end": 36.82,
+      "text": " but today it's you-",
+      "tokens": [
+        50716,
+        457,
+        965,
+        309,
+        311,
+        291,
+        12,
+        50756
+      ],
+      "avg_logprob": -0.35434077002785425,
+      "compression_ratio": 1.1900826446280992,
+      "no_speech_prob": 0.49567562341690063,
+      "words": [
+        {
+          "start": 35.82,
+          "end": 36.08,
+          "word": " but",
+          "probability": 0.9824730157852173
+        },
+        {
+          "start": 36.08,
+          "end": 36.4,
+          "word": " today",
+          "probability": 0.9840441346168518
+        },
+        {
+          "start": 36.4,
+          "end": 36.82,
+          "word": " it's",
+          "probability": 0.8709592819213867
+        },
+        {
+          "start": 36.82,
+          "end": 36.82,
+          "word": " you",
+          "probability": 0.3341233432292938
+        },
+        {
+          "start": 36.82,
+          "end": 36.82,
+          "word": "-",
+          "probability": 0.17426162958145142
+        }
+      ],
+      "temperature": 0.0
+    }
+  ]
+}

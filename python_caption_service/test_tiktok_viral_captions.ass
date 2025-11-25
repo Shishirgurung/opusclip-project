@@ -1,0 +1,18 @@
+[Script Info]
+Title: OpusClip Style Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,128,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,6,2,2,10,10,30,1
+Style: Karaoke,Arial Black,120,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,4,4,2,10,10,40,1
+Style: TikTokViral,Bangers,130,&H00FF00FF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,7,3,2,10,10,40,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.40,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K60}WAIT {\k0\K60}WHAT {\k0\K60}JUST {\k0\K59}HAPPENED
+Dialogue: 0,0:00:02.40,0:00:04.80,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K60}THIS {\k0\K60}IS {\k0\K60}INSANE {\k0\K59}TIKTOK
+Dialogue: 0,0:00:04.80,0:00:06.00,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K60}VIRAL {\k0\K59}CONTENT

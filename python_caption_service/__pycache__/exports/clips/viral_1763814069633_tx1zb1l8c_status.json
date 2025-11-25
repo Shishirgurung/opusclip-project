@@ -1,0 +1,8 @@
+{
+  "jobId": "viral_1763814069633_tx1zb1l8c",
+  "status": "error",
+  "progress": 0,
+  "stage": "Error",
+  "message": "Failed to download and transcribe video. Cannot proceed without real video.",
+  "timestamp": 1763819304.5027146
+}

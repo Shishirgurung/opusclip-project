@@ -1,0 +1,23 @@
+[Script Info]
+Title: OpusClip Style Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,128,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,6,2,2,10,10,30,1
+Style: Karaoke,Arial Black,120,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,4,4,2,10,10,40,1
+Style: GlitchStyle,Impact,120,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,-1,0,1,5,2,5,10,10,40,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.50,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\1c&HFF009D&\t(0,50,\frx-7)\t(50,100,\frx7)\t(100,150,\frx0)}THIS {\r}IS {\r}A
+Dialogue: 0,0:00:00.50,0:00:00.80,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\r}THIS {\r}IS {\r}A
+Dialogue: 0,0:00:00.80,0:00:01.00,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\r}THIS {\r}IS {\r}A
+Dialogue: 0,0:00:01.00,0:00:01.50,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\1c&HFF009D&\t(0,50,\frx-7)\t(50,100,\frx7)\t(100,150,\frx0)}GLITCH {\r}TEST {\r}WITH
+Dialogue: 0,0:00:01.50,0:00:02.00,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\r}GLITCH {\r}TEST {\r}WITH
+Dialogue: 0,0:00:02.00,0:00:02.30,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\r}GLITCH {\r}TEST {\r}WITH
+Dialogue: 0,0:00:02.30,0:00:02.80,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\1c&HFF009D&\t(0,50,\frx-7)\t(50,100,\frx7)\t(100,150,\frx0)}DIGITAL {\r}EFFECTS
+Dialogue: 0,0:00:02.80,0:00:03.50,GlitchStyle,,0,0,0,,{\an5\pos(540,1600)}{\fad(200,100)}{\r}DIGITAL {\1c&HFF009D&\t(0,50,\frx-7)\t(50,100,\frx7)\t(100,150,\frx0)}EFFECTS

@@ -1,0 +1,14 @@
+[Script Info]
+Title: PopUp Captions
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: PopUpStyle,Arial Black,50,&HFFFFFF&,&HFFFFFF&,&H000000&,&H000000&,0,0,0,0,100,100,0,0,1,2,2,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:05.10,PopUpStyle,,0,0,0,,{n2}{\t(0.0,150.0,\fscx120\fscy120\alpha&HAA&)\t(150.0,300.0,\fscx100\fscy100\alpha&H00&)}Hello {\t(500.0,650.0,\fscx120\fscy120\alpha&HAA&)\t(650.0,800.0,\fscx100\fscy100\alpha&H00&)}everyone, {\t(1300.0,1450.0,\fscx120\fscy120\alpha&HAA&)\t(1450.0,1600.0,\fscx100\fscy100\alpha&H00&)}welcome {\t(1900.0,2050.0,\fscx120\fscy120\alpha&HAA&)\t(2050.0,2200.0,\fscx100\fscy100\alpha&H00&)}to {\t(2200.0,2350.0,\fscx120\fscy120\alpha&HAA&)\t(2350.0,2500.0,\fscx100\fscy100\alpha&H00&)}our {\t(2600.0,2750.0,\fscx120\fscy120\alpha&HAA&)\t(2750.0,2900.0,\fscx100\fscy100\alpha&H00&)}amazing {\t(3400.0,3550.0,\fscx120\fscy120\alpha&HAA&)\t(3550.0,3700.0,\fscx100\fscy100\alpha&H00&)}AI {\t(3800.0,3950.0,\fscx120\fscy120\alpha&HAA&)\t(3950.0,4100.0,\fscx100\fscy100\alpha&H00&)}video {\t(4400.0,4550.0,\fscx120\fscy120\alpha&HAA&)\t(4550.0,4700.0,\fscx100\fscy100\alpha&H00&)}editor!
+Dialogue: 0,0:00:06.90,0:00:11.10,PopUpStyle,,0,0,0,,{n2}{\t(0.0,150.0,\fscx120\fscy120\alpha&HAA&)\t(150.0,300.0,\fscx100\fscy100\alpha&H00&)}This {\t(400.0,550.0,\fscx120\fscy120\alpha&HAA&)\t(550.0,700.0,\fscx100\fscy100\alpha&H00&)}tool {\t(800.0,950.0,\fscx120\fscy120\alpha&HAA&)\t(950.0,1100.0,\fscx100\fscy100\alpha&H00&)}will {\t(1100.0,1250.0,\fscx120\fscy120\alpha&HAA&)\t(1250.0,1400.0,\fscx100\fscy100\alpha&H00&)}transform {\t(1800.0,1950.0,\fscx120\fscy120\alpha&HAA&)\t(1950.0,2100.0,\fscx100\fscy100\alpha&H00&)}your {\t(2200.0,2350.0,\fscx120\fscy120\alpha&HAA&)\t(2350.0,2500.0,\fscx100\fscy100\alpha&H00&)}content {\t(2900.0,3050.0,\fscx120\fscy120\alpha&HAA&)\t(3050.0,3200.0,\fscx100\fscy100\alpha&H00&)}creation {\t(3600.0,3750.0,\fscx120\fscy120\alpha&HAA&)\t(3750.0,3900.0,\fscx100\fscy100\alpha&H00&)}process.

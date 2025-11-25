@@ -1,0 +1,53 @@
+[Script Info]
+Title: OpusClip Style Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Impact,144,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,10,5,2,10,10,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.04,0:00:03.54,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K51\t(0,150,\fscx125,\fscy125)\t(150,519.999999999996,\fscx100,\fscy100)}Javascript, {\k18\K31}an {\k0\K48}embarrassing
+Dialogue: 0,0:00:03.54,0:00:04.66,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K39}toy {\k0\K42}language, {\k15\K14}used
+Dialogue: 0,0:00:04.66,0:00:05.84,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K59}exclusively {\k0\K32}to {\k0\K25}build
+Dialogue: 0,0:00:05.84,0:00:06.50,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K25}things {\k0\K28}it's {\k0\K12}not
+Dialogue: 0,0:00:06.50,0:00:07.32,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K29}supposed {\k0\K32}to. {\k12\K8}It
+Dialogue: 0,0:00:07.32,0:00:08.00,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K12}was {\k0\K33}created {\k0\K21}by
+Dialogue: 0,0:00:08.00,0:00:08.78,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K27}Brendan {\k0\K40}Ike {\k0\K9}in
+Dialogue: 0,0:00:08.78,0:00:09.92,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K54}1995, {\k1\K43}who {\k0\K14}was
+Dialogue: 0,0:00:09.92,0:00:10.84,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K11}given {\k0\K54}requirements {\k0\K25}to
+Dialogue: 0,0:00:10.84,0:00:11.42,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K17}build {\k0\K9}a {\k0\K30}language
+Dialogue: 0,0:00:11.42,0:00:12.50,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K24}like {\k0\K40}Java, {\k29\K14}but
+Dialogue: 0,0:00:12.50,0:00:13.40,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K17}for {\k0\K50}f**kards. {\k16\K6}It
+Dialogue: 0,0:00:13.40,0:00:13.90,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K17}only {\k0\K17}took {\k0\K14}him
+Dialogue: 0,0:00:13.90,0:00:14.70,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K25}seven {\k0\K27}days {\k0\K25}to
+Dialogue: 0,0:00:14.70,0:00:16.12,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K50}execute {\k0\K64}flawlessly. {\k21\K6}It
+Dialogue: 0,0:00:16.12,0:00:16.90,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K25}became {\k0\K17}an {\k0\K33}overnight
+Dialogue: 0,0:00:16.90,0:00:18.00,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K40}dumpster {\k0\K33}fire, {\k12\K23}but
+Dialogue: 0,0:00:18.00,0:00:18.68,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K21}shit {\k0\K30}really {\k0\K16}hit
+Dialogue: 0,0:00:18.68,0:00:19.08,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K12}the {\k0\K17}fan {\k0\K9}in
+Dialogue: 0,0:00:19.08,0:00:20.44,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K72}2005 {\k0\K37}when {\k0\K26}Ryan
+Dialogue: 0,0:00:20.44,0:00:21.12,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K29}Dull {\k0\K20}made {\k0\K17}the
+Dialogue: 0,0:00:21.12,0:00:21.96,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K21}epic {\k0\K39}mistake {\k0\K22}of
+Dialogue: 0,0:00:21.96,0:00:22.90,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K21}bringing {\k0\K55\t(0,150,\fscx125,\fscy125)\t(150,559.9999999999987,\fscx100,\fscy100)}Javascript {\k0\K16}to
+Dialogue: 0,0:00:22.90,0:00:23.58,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K10}the {\k0\K28}server {\k0\K29}with
+Dialogue: 0,0:00:23.58,0:00:24.74,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K22}no {\k0\K37}JS. {\k33\K21}Just
+Dialogue: 0,0:00:24.74,0:00:25.46,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K30}like {\k0\K26}Alfred {\k0\K16}Nobel
+Dialogue: 0,0:00:25.46,0:00:26.48,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K41}and {\k0\K48}Dynamite, {\k6\K5}he
+Dialogue: 0,0:00:26.48,0:00:26.86,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K9}would {\k0\K12}go {\k0\K16}on
+Dialogue: 0,0:00:26.86,0:00:27.76,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K14}to {\k0\K39}apologize {\k0\K36}for
+Dialogue: 0,0:00:27.76,0:00:28.52,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K13}his {\k0\K33}invention {\k0\K28}many
+Dialogue: 0,0:00:28.52,0:00:29.38,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K21}years {\k0\K30}later. {\k0\K33}And
+Dialogue: 0,0:00:29.38,0:00:30.00,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K17}it's {\k0\K12}my {\k0\K32}fault,
+Dialogue: 0,0:00:30.14,0:00:30.84,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K33}and {\k0\K19}I'm {\k0\K16}very
+Dialogue: 0,0:00:30.84,0:00:31.90,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K33}sorry. {\k35\K8}The {\k0\K27}language
+Dialogue: 0,0:00:31.90,0:00:32.68,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K20}is {\k0\K32}designed {\k0\K25}for
+Dialogue: 0,0:00:32.68,0:00:33.40,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K28}only {\k0\K19}one {\k0\K24}use
+Dialogue: 0,0:00:33.40,0:00:34.20,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K24}case, {\k25\K7}to {\k0\K22}annoy
+Dialogue: 0,0:00:34.20,0:00:35.04,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K33}people {\k0\K21}with {\k0\K28}browser
+Dialogue: 0,0:00:35.04,0:00:36.08,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K28}pop {\k0\K33}-ups, {\k16\K25}but
+Dialogue: 0,0:00:36.08,0:00:36.82,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K32}today {\k0\K42}it's {\k0\K1}you
+Dialogue: 0,0:00:36.82,0:00:36.82,Default,,0,0,0,,{\an2\pos(540,1200)}{\k0\K1}-

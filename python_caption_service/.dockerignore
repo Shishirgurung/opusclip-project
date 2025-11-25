@@ -1,0 +1,42 @@
+# Docker files
+Dockerfile
+.dockerignore
+
+# Git and version control
+.git
+.gitignore
+
+# Python virtual environments
+.venv
+venv
+*/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / build artifacts
+.Python
+build/
+dist/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+
+# Media, Models, and Uploads
+/uploads
+/exports
+*.mp4
+*.wav
+*.mp3
+*.pt
+
+# Log files
+*.log
+# *.txt
+srt

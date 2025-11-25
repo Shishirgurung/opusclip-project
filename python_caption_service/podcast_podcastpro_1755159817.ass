@@ -1,0 +1,54 @@
+[Script Info]
+Title: OpusClip Style Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,128,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,6,2,2,10,10,30,1
+Style: Karaoke,Arial Black,120,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,4,4,2,10,10,40,1
+Style: PodcastProStyle,Open Sans,75,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,20,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.72,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}virtually {\1c&H000000FF&}the {\1c&H00FFFFFF&}place {\1c&H0000FFFF&}where {\1c&H0000FF00&}you
+Dialogue: 0,0:00:00.72,0:00:04.44,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}build {\1c&H00FFFFFF&}software. {\1c&H0000FFFF&}And {\1c&H0000FF00&}today, {\1c&H000000FF&}or
+Dialogue: 0,0:00:04.44,0:00:05.08,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}for {\1c&H0000FFFF&}a {\1c&H0000FF00&}long {\1c&H000000FF&}time {\1c&H00FFFFFF&}that's
+Dialogue: 0,0:00:05.08,0:00:06.02,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}meant {\1c&H0000FF00&}the {\1c&H000000FF&}place {\1c&H00FFFFFF&}where {\1c&H0000FFFF&}you
+Dialogue: 0,0:00:06.02,0:00:08.14,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}text {\1c&H000000FF&}at {\1c&H00FFFFFF&}a {\1c&H0000FFFF&}formal {\1c&H0000FF00&}programming
+Dialogue: 0,0:00:08.14,0:00:10.18,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}language. {\1c&H00FFFFFF&}And {\1c&H0000FFFF&}for {\1c&H0000FF00&}people {\1c&H000000FF&}who
+Dialogue: 0,0:00:10.18,0:00:11.16,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}aren't {\1c&H0000FFFF&}programmers, {\1c&H0000FF00&}the {\1c&H000000FF&}way {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:11.16,0:00:11.72,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}think {\1c&H0000FF00&}of {\1c&H000000FF&}a {\1c&H00FFFFFF&}code {\1c&H0000FFFF&}editor
+Dialogue: 0,0:00:11.72,0:00:12.80,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}is {\1c&H000000FF&}like {\1c&H00FFFFFF&}a {\1c&H0000FFFF&}really {\1c&H0000FF00&}souped
+Dialogue: 0,0:00:12.80,0:00:14.68,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}up {\1c&H00FFFFFF&}word {\1c&H0000FFFF&}processor {\1c&H0000FF00&}for {\1c&H000000FF&}programmers.
+Dialogue: 0,0:00:15.40,0:00:17.02,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}Where {\1c&H0000FFFF&}the {\1c&H0000FF00&}reason {\1c&H000000FF&}it's {\1c&H00FFFFFF&}souped
+Dialogue: 0,0:00:17.02,0:00:18.32,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}up {\1c&H0000FF00&}is {\1c&H000000FF&}code {\1c&H00FFFFFF&}has {\1c&H0000FFFF&}a
+Dialogue: 0,0:00:18.32,0:00:20.04,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}lot {\1c&H000000FF&}of {\1c&H00FFFFFF&}structure. {\1c&H0000FFFF&}And {\1c&H0000FF00&}so
+Dialogue: 0,0:00:20.04,0:00:22.36,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}the {\1c&H00FFFFFF&}quote {\1c&H0000FFFF&}unquote {\1c&H0000FF00&}word {\1c&H000000FF&}processor,
+Dialogue: 0,0:00:22.50,0:00:24.20,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}the {\1c&H0000FFFF&}code {\1c&H0000FF00&}editor {\1c&H000000FF&}can {\1c&H00FFFFFF&}actually
+Dialogue: 0,0:00:24.20,0:00:25.00,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}do {\1c&H0000FF00&}a {\1c&H000000FF&}lot {\1c&H00FFFFFF&}for {\1c&H0000FFFF&}you
+Dialogue: 0,0:00:25.46,0:00:26.94,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}that {\1c&H000000FF&}word {\1c&H00FFFFFF&}processors, {\1c&H0000FFFF&}you {\1c&H0000FF00&}know,
+Dialogue: 0,0:00:27.06,0:00:27.52,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}sort {\1c&H00FFFFFF&}of {\1c&H0000FFFF&}in {\1c&H0000FF00&}the {\1c&H000000FF&}writing
+Dialogue: 0,0:00:27.52,0:00:28.42,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}space {\1c&H0000FFFF&}haven't {\1c&H0000FF00&}been {\1c&H000000FF&}able {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:28.42,0:00:29.68,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}do {\1c&H0000FF00&}for {\1c&H000000FF&}people {\1c&H00FFFFFF&}editing {\1c&H0000FFFF&}text
+Dialogue: 0,0:00:29.68,0:00:31.56,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}there. {\1c&H000000FF&}And {\1c&H00FFFFFF&}so, {\1c&H0000FFFF&}you {\1c&H0000FF00&}know,
+Dialogue: 0,0:00:31.56,0:00:32.54,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}that's {\1c&H00FFFFFF&}everything {\1c&H0000FFFF&}from {\1c&H0000FF00&}giving {\1c&H000000FF&}you
+Dialogue: 0,0:00:32.54,0:00:34.24,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}visual {\1c&H0000FFFF&}differentiation {\1c&H0000FF00&}of {\1c&H000000FF&}like {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:34.24,0:00:35.22,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}actual {\1c&H0000FF00&}tokens {\1c&H000000FF&}in {\1c&H00FFFFFF&}the {\1c&H0000FFFF&}code
+Dialogue: 0,0:00:35.22,0:00:36.24,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}so {\1c&H000000FF&}you {\1c&H00FFFFFF&}can {\1c&H0000FFFF&}like {\1c&H0000FF00&}scan
+Dialogue: 0,0:00:36.24,0:00:37.68,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}it {\1c&H00FFFFFF&}quickly. {\1c&H0000FFFF&}To {\1c&H0000FF00&}letting {\1c&H000000FF&}you
+Dialogue: 0,0:00:37.68,0:00:39.04,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}navigate {\1c&H0000FFFF&}around {\1c&H0000FF00&}the {\1c&H000000FF&}code {\1c&H00FFFFFF&}base,
+Dialogue: 0,0:00:39.26,0:00:39.88,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}sort {\1c&H0000FF00&}of {\1c&H000000FF&}like {\1c&H00FFFFFF&}you're {\1c&H0000FFFF&}navigating
+Dialogue: 0,0:00:39.88,0:00:40.82,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}around {\1c&H000000FF&}the {\1c&H00FFFFFF&}internet {\1c&H0000FFFF&}with {\1c&H0000FF00&}like
+Dialogue: 0,0:00:40.82,0:00:41.86,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}hyperlinks, {\1c&H00FFFFFF&}you're {\1c&H0000FFFF&}going {\1c&H0000FF00&}to {\1c&H000000FF&}sort
+Dialogue: 0,0:00:41.86,0:00:43.02,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}of {\1c&H0000FFFF&}definitions {\1c&H0000FF00&}of {\1c&H000000FF&}things {\1c&H00FFFFFF&}you're
+Dialogue: 0,0:00:43.02,0:00:46.78,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}using {\1c&H0000FF00&}to {\1c&H000000FF&}error {\1c&H00FFFFFF&}checking. {\1c&H0000FFFF&}To
+Dialogue: 0,0:00:46.78,0:00:50.76,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}catch {\1c&H000000FF&}rudimentary {\1c&H00FFFFFF&}bugs. {\1c&H0000FFFF&}And {\1c&H0000FF00&}so
+Dialogue: 0,0:00:50.76,0:00:53.00,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}traditionally {\1c&H00FFFFFF&}that's {\1c&H0000FFFF&}what {\1c&H0000FF00&}a {\1c&H000000FF&}code
+Dialogue: 0,0:00:53.00,0:00:55.88,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}editor {\1c&H0000FFFF&}has {\1c&H0000FF00&}meant. {\1c&H000000FF&}And {\1c&H00FFFFFF&}I
+Dialogue: 0,0:00:55.88,0:00:57.82,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FFFF&}think {\1c&H0000FF00&}that {\1c&H000000FF&}what {\1c&H00FFFFFF&}code {\1c&H0000FFFF&}editor
+Dialogue: 0,0:00:57.82,0:00:58.68,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H0000FF00&}is {\1c&H000000FF&}is {\1c&H00FFFFFF&}going {\1c&H0000FFFF&}to {\1c&H0000FF00&}change
+Dialogue: 0,0:00:58.68,0:00:59.16,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H000000FF&}a {\1c&H00FFFFFF&}lot {\1c&H0000FFFF&}over {\1c&H0000FF00&}the {\1c&H000000FF&}next
+Dialogue: 0,0:00:59.16,0:00:59.48,PodcastProStyle,,0,0,0,,{\an5\pos(540,960)}{\fad(100,100)}{\1c&H00FFFFFF&}10 {\1c&H0000FFFF&}years.

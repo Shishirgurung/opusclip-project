@@ -1,0 +1,19 @@
+[Script Info]
+Title: OpusClip Style Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Black,128,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,6,2,2,10,10,30,1
+Style: Karaoke,Arial Black,120,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,4,4,2,10,10,40,1
+Style: Default,Arial Black,144,&H00FFFFFF,&H0000FF00,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,8,3,2,10,10,40,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.50,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K50}HELLO {\k0\K50}WORLD {\k0\K50}THIS
+Dialogue: 0,0:00:01.50,0:00:03.00,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K50}IS {\k0\K50}SWIPEUP {\k0\K50}CAPTIONS
+Dialogue: 0,0:00:03.00,0:00:04.50,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K50}WITH {\k0\K50}PROGRESSIVE {\k0\K50}FILL
+Dialogue: 0,0:00:04.50,0:00:05.00,Default,,0,0,0,,{\an5\pos(540,1600)}{\k0\K50}ANIMATION

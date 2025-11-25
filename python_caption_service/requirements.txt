@@ -1,0 +1,21 @@
+flask
+flask-cors
+redis
+rq
+python-dotenv
+faster-whisper
+moviepy
+websockets
+scikit-image
+pillow
+yt-dlp
+
+# Hook Detection & Viral Scoring Dependencies
+transformers>=4.21.0
+torch>=1.12.0
+nltk>=3.7
+
+# Translation & Transliteration Support
+deep-translator>=1.11.4
+indic-transliteration>=2.3.0  # For Hindi → Hinglish (Devanagari → Roman)
+
