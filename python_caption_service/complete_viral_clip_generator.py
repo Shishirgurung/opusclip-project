@@ -14,7 +14,6 @@ from pathlib import Path
 import json
 import subprocess
 from hook_detector import HookDetector, parse_whisper_segments
-from processing import download_youtube_video
 from opus_processor import OpusProcessor
 import yt_dlp
 from faster_whisper import WhisperModel

@@ -23,9 +23,21 @@ try:
     SIMPLE_SPEAKER_DETECTION_AVAILABLE = True
 except ImportError:
     SIMPLE_SPEAKER_DETECTION_AVAILABLE = False
-from moviepy.video.fx.all import crop, resize
-import skimage.filters as filters
-import ffmpeg
+try:
+    from moviepy.video.fx.all import crop, resize
+except ImportError:
+    print("Warning: moviepy not available. Video processing will be limited.")
+
+try:
+    import skimage.filters as filters
+except ImportError:
+    print("Warning: scikit-image not available.")
+
+try:
+    import ffmpeg
+except ImportError:
+    print("Warning: ffmpeg-python not available.")
+
 try:
     from pyannote.audio import Pipeline
     SPEAKER_DIARIZATION_AVAILABLE = True
