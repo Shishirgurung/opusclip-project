@@ -1,9 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Large files
+python_caption_service.zip
+python_caption_service/base.pt
+*.mp4
+*.node
+redis-*.exe
+redis-*.pdb
+redis.windows*.conf
+*.ass
+*.pycache
+__pycache__/js
 .yarn/install-state.gz
 
 # testing
