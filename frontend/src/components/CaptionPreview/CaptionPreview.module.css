@@ -1,0 +1,29 @@
+.previewWrapper {
+    width: 100%;
+    height: 250px; /* Or any desired height */
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Ensures captions don't spill out */
+}
+
+.previewContainer {
+    width: 100%;
+    height: 100%;
+    position: relative; /* libjass needs a relative or absolute container */
+}
+
+/* libjass will inject its own divs inside .previewContainer */
+/* We can style the default libjass wrapper if needed */
+.previewContainer .libjass-subs {
+    /* Example: force full size */
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+}

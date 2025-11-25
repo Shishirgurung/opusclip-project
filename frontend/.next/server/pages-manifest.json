@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/viral-clips": "pages/viral-clips.js",
+  "/api/generate-viral-clips": "pages/api/generate-viral-clips.js",
+  "/api/viral-clips-status": "pages/api/viral-clips-status.js"
+}

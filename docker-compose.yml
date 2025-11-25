@@ -1,0 +1,121 @@
+services:
+  # Redis service for job queue and state management
+  redis:
+    image: redis:7-alpine
+    container_name: video-processor-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    networks:
+      - video-processor-network
+
+  # Next.js frontend and API service
+  nextjs:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: video-processor-nextjs
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - REDIS_URL=redis://redis:6379
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=
+      - JOB_POLLING_INTERVAL_MS=2000
+      - JOB_CLEANUP_DAYS=7
+      - FLASK_API_URL=http://flask:5000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - next_data:/app/.next
+    depends_on:
+      redis:
+        condition: service_healthy
+      flask:
+        condition: service_started
+    command: ["pnpm", "run", "dev"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - video-processor-network
+
+  # Flask backend service for video processing
+  flask:
+    build:
+      context: ./python_caption_service
+      dockerfile: Dockerfile
+    container_name: video-processor-flask
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./.env
+    environment:
+      - FLASK_ENV=development
+      - REDIS_URL=redis://redis:6379
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=
+    volumes:
+      - ./python_caption_service:/app
+      - flask_uploads:/app/uploads
+      - flask_temp:/tmp
+    command: gunicorn --bind 0.0.0.0:5000 --workers 2 --timeout 600 app:app
+    restart: unless-stopped
+    depends_on:
+      redis:
+        condition: service_healthy
+    networks:
+      - video-processor-network
+
+  # Python background worker service that processes jobs from the queue
+  worker:
+    build:
+      context: ./python_caption_service
+      dockerfile: Dockerfile
+    container_name: video-processor-worker
+    env_file:
+      - ./.env
+    command: ["python", "-m", "worker"]
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=
+    volumes:
+      - ./python_caption_service:/app
+      - flask_uploads:/app/uploads
+      - flask_temp:/tmp
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - video-processor-network
+
+volumes:
+  redis_data:
+    driver: local
+  flask_uploads:
+    driver: local
+  flask_temp:
+    driver: local
+  next_data:
+    driver: local
+
+networks:
+  video-processor-network:
+    driver: bridge

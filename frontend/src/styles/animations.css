@@ -1,0 +1,429 @@
+/* Opus Clip Animation Styles */
+/* CSS animations for all 9 Opus Clip animation styles */
+
+/* Bounce Animation - Elastic bouncy effect */
+@keyframes opus-bounce {
+  0% { 
+    transform: translateY(0) scale(1); 
+    animation-timing-function: ease-out;
+  }
+  25% { 
+    transform: translateY(-15px) scale(1.05); 
+    animation-timing-function: ease-in;
+  }
+  50% { 
+    transform: translateY(-25px) scale(1.1); 
+    animation-timing-function: ease-out;
+  }
+  65% { 
+    transform: translateY(-10px) scale(1.03); 
+    animation-timing-function: ease-in;
+  }
+  80% { 
+    transform: translateY(-5px) scale(1.01); 
+    animation-timing-function: ease-out;
+  }
+  100% { 
+    transform: translateY(0) scale(1); 
+  }
+}
+
+.opus-anim-bounce {
+  animation: opus-bounce var(--animation-duration, 0.8s) var(--animation-easing, cubic-bezier(0.68, -0.55, 0.265, 1.55)) var(--animation-delay, 0s);
+  transform-origin: center bottom;
+}
+
+/* Pop Animation - Scale transformation with back easing */
+@keyframes opus-pop {
+  0% { 
+    transform: scale(0.3); 
+    opacity: 0.5;
+  }
+  50% { 
+    transform: scale(1.15); 
+    opacity: 0.9;
+  }
+  70% { 
+    transform: scale(0.95); 
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(1); 
+    opacity: 1;
+  }
+}
+
+.opus-anim-pop {
+  animation: opus-pop var(--animation-duration, 0.6s) var(--animation-easing, cubic-bezier(0.175, 0.885, 0.32, 1.275)) var(--animation-delay, 0s);
+  transform-origin: center;
+}
+
+/* Scale Animation - Smooth scaling from small to normal */
+@keyframes opus-scale {
+  0% { 
+    transform: scale(0); 
+    opacity: 0;
+  }
+  60% { 
+    transform: scale(1.05); 
+    opacity: 0.8;
+  }
+  100% { 
+    transform: scale(1); 
+    opacity: 1;
+  }
+}
+
+.opus-anim-scale {
+  animation: opus-scale var(--animation-duration, 0.7s) var(--animation-easing, ease-out) var(--animation-delay, 0s);
+  transform-origin: center;
+}
+
+/* Underline Animation - Drawing effect from left to right */
+@keyframes opus-underline-draw {
+  0% { 
+    width: 0%;
+    opacity: 0;
+  }
+  50% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% { 
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes opus-underline-glow {
+  0%, 100% { 
+    box-shadow: 0 2px 0 #04f827;
+  }
+  50% { 
+    box-shadow: 0 2px 8px rgba(4, 248, 39, 0.6);
+  }
+}
+
+.opus-anim-underline {
+  position: relative;
+  animation: opus-underline-glow var(--animation-duration, 0.8s) var(--animation-easing, ease-in-out) var(--animation-delay, 0s);
+}
+
+.opus-anim-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #04f827, #02d61f);
+  border-radius: 2px;
+  animation: opus-underline-draw var(--animation-duration, 0.8s) var(--animation-easing, ease-out) var(--animation-delay, 0s);
+}
+
+/* Slide Left Animation - Horizontal movement from left */
+@keyframes opus-slide-left {
+  0% { 
+    transform: translateX(-120px); 
+    opacity: 0;
+  }
+  60% { 
+    transform: translateX(10px); 
+    opacity: 0.8;
+  }
+  100% { 
+    transform: translateX(0); 
+    opacity: 1;
+  }
+}
+
+.opus-anim-slide-left {
+  animation: opus-slide-left var(--animation-duration, 0.7s) var(--animation-easing, cubic-bezier(0.25, 0.46, 0.45, 0.94)) var(--animation-delay, 0s);
+}
+
+/* Slide Up Animation - Vertical movement from bottom */
+@keyframes opus-slide-up {
+  0% { 
+    transform: translateY(80px); 
+    opacity: 0;
+  }
+  60% { 
+    transform: translateY(-8px); 
+    opacity: 0.8;
+  }
+  100% { 
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+
+.opus-anim-slide-up {
+  animation: opus-slide-up var(--animation-duration, 0.7s) var(--animation-easing, cubic-bezier(0.25, 0.46, 0.45, 0.94)) var(--animation-delay, 0s);
+}
+
+/* Box Animation - Border effects with glow */
+@keyframes opus-box-border {
+  0% { 
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 rgba(4, 248, 39, 0);
+    background: rgba(4, 248, 39, 0);
+  }
+  30% {
+    border: 2px solid rgba(4, 248, 39, 0.5);
+    box-shadow: 0 0 10px rgba(4, 248, 39, 0.3);
+    background: rgba(4, 248, 39, 0.05);
+  }
+  60% {
+    border: 2px solid #04f827;
+    box-shadow: 0 0 20px rgba(4, 248, 39, 0.6);
+    background: rgba(4, 248, 39, 0.1);
+  }
+  100% { 
+    border: 2px solid #04f827;
+    box-shadow: 0 0 15px rgba(4, 248, 39, 0.4);
+    background: rgba(4, 248, 39, 0.05);
+  }
+}
+
+.opus-anim-box {
+  animation: opus-box-border var(--animation-duration, 0.8s) var(--animation-easing, ease-in-out) var(--animation-delay, 0s);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Fade Animation - Opacity transitions */
+@keyframes opus-fade {
+  0% { 
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.02);
+  }
+  100% { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.opus-anim-fade {
+  animation: opus-fade var(--animation-duration, 0.8s) var(--animation-easing, ease-out) var(--animation-delay, 0s);
+}
+
+/* Flash Animation - Quick highlight effect */
+@keyframes opus-flash {
+  0% { 
+    background-color: transparent;
+    color: inherit;
+  }
+  15% { 
+    background-color: #FFFDO3;
+    color: #000;
+    transform: scale(1.05);
+  }
+  30% { 
+    background-color: transparent;
+    color: inherit;
+    transform: scale(1);
+  }
+  45% { 
+    background-color: #04f827;
+    color: #000;
+    transform: scale(1.03);
+  }
+  60% { 
+    background-color: transparent;
+    color: inherit;
+    transform: scale(1);
+  }
+  75% { 
+    background-color: #FFFDO3;
+    color: #000;
+    transform: scale(1.02);
+  }
+  100% { 
+    background-color: transparent;
+    color: inherit;
+    transform: scale(1);
+  }
+}
+
+.opus-anim-flash {
+  animation: opus-flash var(--animation-duration, 1.2s) var(--animation-easing, ease-in-out) var(--animation-delay, 0s);
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Shake Animation - Vibration effect */
+@keyframes opus-shake {
+  0%, 100% { 
+    transform: translateX(0) rotate(0deg);
+  }
+  10% { 
+    transform: translateX(-8px) rotate(-1deg);
+  }
+  20% { 
+    transform: translateX(8px) rotate(1deg);
+  }
+  30% { 
+    transform: translateX(-6px) rotate(-0.5deg);
+  }
+  40% { 
+    transform: translateX(6px) rotate(0.5deg);
+  }
+  50% { 
+    transform: translateX(-4px) rotate(-0.3deg);
+  }
+  60% { 
+    transform: translateX(4px) rotate(0.3deg);
+  }
+  70% { 
+    transform: translateX(-2px) rotate(-0.1deg);
+  }
+  80% { 
+    transform: translateX(2px) rotate(0.1deg);
+  }
+  90% { 
+    transform: translateX(-1px) rotate(0deg);
+  }
+}
+
+.opus-anim-shake {
+  animation: opus-shake var(--animation-duration, 0.8s) var(--animation-easing, ease-in-out) var(--animation-delay, 0s);
+  transform-origin: center;
+}
+
+/* Utility Classes */
+.opus-anim-none {
+  animation: none !important;
+}
+
+/* Animation Intensity Modifiers */
+.opus-anim-intensity-low {
+  --animation-intensity: 0.5;
+}
+
+.opus-anim-intensity-medium {
+  --animation-intensity: 1;
+}
+
+.opus-anim-intensity-high {
+  --animation-intensity: 1.5;
+}
+
+/* Animation Speed Modifiers */
+.opus-anim-speed-slow {
+  --animation-duration: 1.2s;
+}
+
+.opus-anim-speed-normal {
+  --animation-duration: 0.8s;
+}
+
+.opus-anim-speed-fast {
+  --animation-duration: 0.4s;
+}
+
+/* Animation Delay Utilities */
+.opus-anim-delay-short {
+  --animation-delay: 0.1s;
+}
+
+.opus-anim-delay-medium {
+  --animation-delay: 0.3s;
+}
+
+.opus-anim-delay-long {
+  --animation-delay: 0.5s;
+}
+
+/* Word-by-word animation support */
+.opus-word-animation {
+  display: inline-block;
+  animation-fill-mode: both;
+}
+
+/* Line-by-line animation support */
+.opus-line-animation {
+  display: block;
+  animation-fill-mode: both;
+}
+
+/* Responsive animation controls */
+@media (prefers-reduced-motion: reduce) {
+  .opus-anim-bounce,
+  .opus-anim-pop,
+  .opus-anim-scale,
+  .opus-anim-underline,
+  .opus-anim-slide-left,
+  .opus-anim-slide-up,
+  .opus-anim-box,
+  .opus-anim-fade,
+  .opus-anim-flash,
+  .opus-anim-shake {
+    animation: opus-fade 0.3s ease-out;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .opus-anim-underline::after {
+    background: currentColor;
+  }
+  
+  .opus-anim-box {
+    border-color: currentColor;
+    box-shadow: 0 0 0 2px currentColor;
+  }
+  
+  .opus-anim-flash {
+    background-color: currentColor;
+    color: var(--background-color, white);
+  }
+}
+
+/* Animation state classes for JavaScript control */
+.opus-anim-paused {
+  animation-play-state: paused !important;
+}
+
+.opus-anim-running {
+  animation-play-state: running !important;
+}
+
+.opus-anim-reverse {
+  animation-direction: reverse !important;
+}
+
+.opus-anim-alternate {
+  animation-direction: alternate !important;
+}
+
+/* Stagger animation support for multiple elements */
+.opus-anim-stagger-1 { --animation-delay: 0.1s; }
+.opus-anim-stagger-2 { --animation-delay: 0.2s; }
+.opus-anim-stagger-3 { --animation-delay: 0.3s; }
+.opus-anim-stagger-4 { --animation-delay: 0.4s; }
+.opus-anim-stagger-5 { --animation-delay: 0.5s; }
+.opus-anim-stagger-6 { --animation-delay: 0.6s; }
+.opus-anim-stagger-7 { --animation-delay: 0.7s; }
+.opus-anim-stagger-8 { --animation-delay: 0.8s; }
+.opus-anim-stagger-9 { --animation-delay: 0.9s; }
+.opus-anim-stagger-10 { --animation-delay: 1.0s; }
+
+/* Container for animated captions */
+.opus-caption-container {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+
+/* Ensure animations work with different text sizes */
+.opus-caption-container * {
+  animation-fill-mode: both;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

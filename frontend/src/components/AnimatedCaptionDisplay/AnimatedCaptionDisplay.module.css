@@ -1,0 +1,115 @@
+/* src/components/AnimatedCaptionDisplay/AnimatedCaptionDisplay.module.css */
+.captionContainer {
+  position: absolute;
+  bottom: 5%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* Adjust as needed */
+  text-align: center;
+  z-index: 1000;
+  pointer-events: none; /* Allow clicks to pass through captions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.captionLine {
+  margin: 0.1em 0; /* Small space between lines of captions */
+  padding: 0.2em 0.5em;
+  display: inline-block; /* Allows background to fit text content if needed */
+  /* background-color: rgba(0, 0, 0, 0.3); Optional: subtle background for better contrast */
+  border-radius: 5px;
+  color: white;
+  font-size: 24px; /* Default, will be overridden */
+  font-family: Arial, sans-serif; /* Default, will be overridden */
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  /* text-shadow: 
+    -1px -1px 0 #000, 
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; Fallback for outline if text-stroke not applied or not supported */
+  white-space: pre-wrap; /* Respects \N from ASS as newlines */
+}
+
+.word {
+  font-family: 'Montserrat', 'Arial Black', sans-serif; /* A bold, modern font */
+  font-size: 2.5rem; /* Adjust based on your video player size */
+  font-weight: 900; /* Extra bold */
+  line-height: 1.2;
+  text-transform: uppercase; /* Common style for this type of caption */
+  padding: 0 0.05em; /* Tiny horizontal space between words */
+  transition: color 0.05s linear, transform 0.05s linear; /* Quick transitions */
+  display: inline-block; /* Needed for transform */
+}
+
+.inactiveWord {
+  color: white;
+  text-shadow: 
+    2px 2px 0px black, /* Main black outline */
+    -2px 2px 0px black,
+    2px -2px 0px black,
+    -2px -2px 0px black;
+}
+
+.activeWord {
+  color: #FFFF00; /* Bright Yellow */
+  /* Or Neon Green: #39FF14; */
+  transform: scale(1.03); /* Slightly larger when active */
+  text-shadow: 
+    2px 2px 0px black,
+    -2px 2px 0px black,
+    2px -2px 0px black,
+    -2px -2px 0px black,
+    0 0 10px #FFFF00, /* Yellow glow */
+    0 0 15px #FFFF00;
+}
+
+/* Pop-in Animation */
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(20px); /* Start slightly lower and smaller */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.popInAnimation {
+  animation: popIn 0.2s ease-out forwards; /* Faster animation as per MrBeast style */
+}
+
+/* Example of how you might style specific parts if you parse ASS tags like {\c&H00FF00&} */
+.highlightGreen {
+  color: #00FF00; /* Or convert from ASS color */
+  /* Add glow effect if desired, e.g., using text-shadow */
+  text-shadow: 
+    0 0 5px #00FF00, 
+    0 0 10px #00FF00, 
+    0 0 15px #00FF00;
+}
+
+/* Media query for smaller screens to adjust font size */
+@media (max-width: 768px) {
+  .word {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .word {
+    font-size: 1.5rem;
+  }
+  .captionContainer {
+    bottom: 10%;
+  }
+}
+
+@font-face {
+  font-family: 'Komika Axis';
+  src: url('/fonts/KomikaAxis.ttf') format('truetype'); /* Adjust path if needed */
+  font-weight: normal;
+  font-style: normal;
+}

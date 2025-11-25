@@ -1,0 +1,144 @@
+S C:\dev\opusclip-project> docker-compose up --build
+[+] Running 2/2
+ ✘ flask Error  pull access denied for opusclip-backend, repository does not exist or may require ...              3.5s 
+ ✘ worker Error pull access denied for opusclip-backend, repository does not exist or may require...               3.6s 
+[+] Building 1194.4s (23/24)
+ => [internal] load local bake definitions                                                                         0.0s
+ => => reading from stdin 719B                                                                                     0.0s
+ => [nextjs internal] load build definition from Dockerfile                                                        0.2s
+ => => transferring dockerfile: 413B                                                                               0.1s 
+ => [backend-base internal] load build definition from Dockerfile                                                  0.1s 
+ => => transferring dockerfile: 910B                                                                               0.1s 
+ => [backend-base internal] load metadata for docker.io/library/python:3.9-slim                                    3.2s
+ => [nextjs internal] load metadata for docker.io/library/node:18-alpine                                           3.2s 
+ => [auth] library/python:pull token for registry-1.docker.io                                                      0.0s
+ => [auth] library/node:pull token for registry-1.docker.io                                                        0.0s 
+ => [backend-base internal] load .dockerignore                                                                     0.1s 
+ => => transferring context: 448B                                                                                  0.1s 
+ => [nextjs internal] load .dockerignore                                                                           0.1s 
+ => => transferring context: 301B                                                                                  0.1s 
+ => [backend-base 1/6] FROM docker.io/library/python:3.9-slim@sha256:4b826e2ca2191c24a03bdbf0c342a73c6ee4ce929eac  0.1s 
+ => => resolve docker.io/library/python:3.9-slim@sha256:4b826e2ca2191c24a03bdbf0c342a73c6ee4ce929eac5ebc47fef78f6  0.1s 
+ => [backend-base internal] load build context                                                                     0.2s 
+ => => transferring context: 277B                                                                                  0.2s 
+ => [nextjs 1/5] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb  0.1s 
+ => => resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8c  0.1s 
+ => [nextjs internal] load build context                                                                           0.2s 
+ => => transferring context: 9.17kB                                                                                0.1s 
+ => CACHED [nextjs 2/5] WORKDIR /app                                                                               0.0s 
+ => CACHED [nextjs 3/5] COPY package*.json ./                                                                      0.0s
+ => CACHED [backend-base 2/6] RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg &&     apt-  0.0s 
+ => CACHED [backend-base 3/6] WORKDIR /app                                                                         0.0s 
+ => CACHED [backend-base 4/6] COPY requirements.txt .                                                              0.0s 
+ => [nextjs 4/5] RUN npm ci                                                                                      253.3s 
+ => ERROR [backend-base 5/6] RUN pip install --no-cache-dir --timeout=600 -r requirements.txt                   1186.9s 
+ => [nextjs 5/5] COPY . .                                                                                         13.6s 
+ => [nextjs] exporting to image                                                                                  370.4s 
+ => => exporting layers                                                                                          242.3s 
+ => => exporting manifest sha256:0447e2d31a22f6a16ebab41111ed9b412140fcbba50f04eae5e018fa684293bb                  0.1s
+ => => exporting config sha256:a38c86628db1bad599b74b8834e04b16b247acc6814d44c374335409ae00b621                    0.0s 
+ => => exporting attestation manifest sha256:049a2435fd07051cff9dbea78126706f6752dae1629b167255d9149f023529c8      0.1s 
+ => => exporting manifest list sha256:018955f30f4d1092971c9a29f9d3c490089c4542d8cb9e3ddf5de855aeae51d6             0.0s 
+ => => naming to docker.io/library/opusclip-project-nextjs:latest                                                  0.1s 
+ => => unpacking to docker.io/library/opusclip-project-nextjs:latest                                             127.5s 
+ => [nextjs] resolving provenance for metadata file                                                                0.3s 
+------
+ > [backend-base 5/6] RUN pip install --no-cache-dir --timeout=600 -r requirements.txt:
+9.277 Collecting flask==3.1.1
+9.931   Downloading flask-3.1.1-py3-none-any.whl (103 kB)
+10.25      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.3/103.3 kB 329.8 kB/s eta 0:00:00
+10.47 Collecting click==8.1.7
+10.66   Downloading click-8.1.7-py3-none-any.whl (97 kB)
+11.07      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 4.2 MB/s eta 0:00:00
+11.24 Collecting flask-cors==6.0.1
+11.51   Downloading flask_cors-6.0.1-py3-none-any.whl (13 kB)
+11.72 Collecting werkzeug==3.1.3
+11.90   Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+12.26      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 758.6 kB/s eta 0:00:00
+12.45 Collecting jinja2==3.1.6
+12.61   Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+12.87      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 526.9 kB/s eta 0:00:00
+13.28 Collecting markupsafe==3.0.2
+13.48   Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+13.61 Collecting itsdangerous==2.2.0
+13.77   Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+13.93 Collecting colorama==0.4.6
+14.08   Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+14.21 Collecting blinker==1.9.0
+14.37   Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+14.95 Collecting yt-dlp>=2024.1.0
+15.12   Downloading yt_dlp-2025.7.21-py3-none-any.whl (3.3 MB)
+24.77      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 340.2 kB/s eta 0:00:00
+24.94 Collecting openai-whisper>=20231117
+25.15   Downloading openai_whisper-20250625.tar.gz (803 kB)
+30.22      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 803.2/803.2 kB 158.7 kB/s eta 0:00:00
+30.49   Installing build dependencies: started
+79.09   Installing build dependencies: finished with status 'done'
+79.09   Getting requirements to build wheel: started
+80.78   Getting requirements to build wheel: finished with status 'done'
+80.80   Preparing metadata (pyproject.toml): started
+83.38   Preparing metadata (pyproject.toml): finished with status 'done'
+83.73 Collecting better-profanity>=0.7.0
+83.97   Downloading better_profanity-0.7.0-py3-none-any.whl (46 kB)
+84.29      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.1/46.1 kB 139.4 kB/s eta 0:00:00
+84.63 Collecting redis>=4.5.1
+84.88   Downloading redis-6.2.0-py3-none-any.whl (278 kB)
+86.98      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 278.7/278.7 kB 136.6 kB/s eta 0:00:00
+87.26 Collecting rq>=1.10.0
+87.45   Downloading rq-2.4.1-py3-none-any.whl (108 kB)
+88.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.0/108.0 kB 126.8 kB/s eta 0:00:00
+88.99 Collecting importlib-metadata>=3.6.0
+89.18   Downloading importlib_metadata-8.7.0-py3-none-any.whl (27 kB)
+90.41 Collecting tiktoken
+90.57   Downloading tiktoken-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+102.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 101.6 kB/s eta 0:00:00
+107.5 Collecting numpy
+112.6   Downloading numpy-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (19.5 MB)
+276.1      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.5/19.5 MB 243.8 kB/s eta 0:00:00
+278.2 Collecting numba
+278.4   Downloading numba-0.60.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+283.0      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 811.7 kB/s eta 0:00:00
+283.3 Collecting triton>=2
+283.4   Downloading triton-3.3.1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (155.6 MB)
+822.2      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.6/155.6 MB 1.3 MB/s eta 0:00:00
+832.8 Collecting tqdm
+832.9   Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+833.0      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 974.6 kB/s eta 0:00:00
+833.2 Collecting more-itertools
+833.3   Downloading more_itertools-10.7.0-py3-none-any.whl (65 kB)
+833.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.3/65.3 kB 1.5 MB/s eta 0:00:00
+833.7 Collecting torch
+833.8   Downloading torch-2.7.1-cp39-cp39-manylinux_2_28_x86_64.whl (821.1 MB)
+1167.3      ━╸                                      32.5/821.1 MB 79.2 kB/s eta 2:46:03
+1169.7 ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.    
+1169.7     torch from https://files.pythonhosted.org/packages/95/7b/62bedf718e6100c6d1d53fbdb7e56cb7ad80912a57f2bc7f4f1f289988f1/torch-2.7.1-cp39-cp39-manylinux_2_28_x86_64.whl (from openai-whisper>=20231117->-r requirements.txt (line 11)):
+1169.7         Expected sha256 8394833c44484547ed4a47162318337b88c97acdb3273d85ea06e03ffff44998
+1169.7              Got        14bbf36cccda8eded054186b0d8482f3b8bfcda36c1d7457d022a844f1415f0f
+1169.7
+1174.5
+1174.5 [notice] A new release of pip is available: 23.0.1 -> 25.1.1
+1174.5 [notice] To update, run: pip install --upgrade pip
+------
+Dockerfile:21
+
+--------------------
+
+  19 |     # Install the Python dependencies
+
+  20 |     # Install the Python dependencies with an increased timeout
+
+  21 | >>> RUN pip install --no-cache-dir --timeout=600 -r requirements.txt
+
+  22 |
+
+  23 |     # Copy the rest of the application code into the container
+
+--------------------
+
+target backend-base: failed to solve: process "/bin/sh -c pip install --no-cache-dir --timeout=600 -r requirements.txt" did not complete successfully: exit code: 1
+
+
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/ojv7g599axnx5yhssp3n5orgz
+
+PS C:\dev\opusclip-project> 

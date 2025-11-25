@@ -1,0 +1,7 @@
+numpy==1.26.4
+moviepy==1.0.3
+openai-whisper
+yt-dlp
+flask
+rq
+redis

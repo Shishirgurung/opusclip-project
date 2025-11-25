@@ -1,0 +1,274 @@
+{
+  "templates": [
+    {
+      "id": "karaoke",
+      "name": "Karaoke",
+      "description": "Word-by-word highlighting with bounce animation, perfect for sing-along style content",
+      "aspectRatio": "9:16",
+      "autoLayout": "center",
+      "defaultLines": 2,
+      "captionSettings": {
+        "animationStyle": "bounce",
+        "font": {
+          "family": "Montserrat",
+          "size": 48,
+          "color": "#FFFFFF",
+          "case": "uppercase"
+        },
+        "position": "bottom",
+        "syncMode": "word",
+        "highlightWords": [],
+        "autoHighlight": true
+      },
+      "overlaySettings": {
+        "url": "",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 100, "height": 100 },
+        "opacity": 0
+      },
+      "introOutroSettings": {
+        "url": "",
+        "duration": 0
+      },
+      "aiEmojis": true,
+      "autoTransitions": true,
+      "createdAt": "2025-07-29T17:55:00.000Z",
+      "updatedAt": "2025-07-29T17:55:00.000Z",
+      "assets": {},
+      "keywordHighlight": {
+        "primaryColor": "#04f827FF",
+        "secondaryColor": "#FFFDO3FF",
+        "enabled": true
+      },
+      "fontSettings": {
+        "family": "Montserrat",
+        "size": 48,
+        "color": "#FFFFFF",
+        "shadowColor": "#000000",
+        "shadowX": 2,
+        "shadowY": 2,
+        "shadowBlur": 4
+      },
+      "positioning": {
+        "default": "bottom",
+        "allowOverride": true
+      }
+    },
+    {
+      "id": "beasty",
+      "name": "Beasty",
+      "description": "Bold and aggressive styling with pop animation, ideal for high-energy content",
+      "aspectRatio": "9:16",
+      "autoLayout": "center",
+      "defaultLines": 1,
+      "captionSettings": {
+        "animationStyle": "pop",
+        "font": {
+          "family": "Anton",
+          "size": 56,
+          "color": "#FF4444",
+          "case": "uppercase"
+        },
+        "position": "middle",
+        "syncMode": "line",
+        "highlightWords": [],
+        "autoHighlight": true
+      },
+      "overlaySettings": {
+        "url": "",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 100, "height": 100 },
+        "opacity": 0
+      },
+      "introOutroSettings": {
+        "url": "",
+        "duration": 0
+      },
+      "aiEmojis": true,
+      "autoTransitions": true,
+      "createdAt": "2025-07-29T17:55:00.000Z",
+      "updatedAt": "2025-07-29T17:55:00.000Z",
+      "assets": {},
+      "keywordHighlight": {
+        "primaryColor": "#04f827FF",
+        "secondaryColor": "#FFFDO3FF",
+        "enabled": true
+      },
+      "fontSettings": {
+        "family": "Anton",
+        "size": 56,
+        "color": "#FF4444",
+        "shadowColor": "#000000",
+        "shadowX": 3,
+        "shadowY": 3,
+        "shadowBlur": 6
+      },
+      "positioning": {
+        "default": "middle",
+        "allowOverride": true
+      }
+    },
+    {
+      "id": "mozi",
+      "name": "Mozi",
+      "description": "Clean and modern design with scale animation, perfect for professional content",
+      "aspectRatio": "9:16",
+      "autoLayout": "center",
+      "defaultLines": 2,
+      "captionSettings": {
+        "animationStyle": "scale",
+        "font": {
+          "family": "Georgia",
+          "size": 44,
+          "color": "#FFFFFF",
+          "case": "normal"
+        },
+        "position": "bottom",
+        "syncMode": "line",
+        "highlightWords": [],
+        "autoHighlight": true
+      },
+      "overlaySettings": {
+        "url": "",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 100, "height": 100 },
+        "opacity": 0
+      },
+      "introOutroSettings": {
+        "url": "",
+        "duration": 0
+      },
+      "aiEmojis": false,
+      "autoTransitions": true,
+      "createdAt": "2025-07-29T17:55:00.000Z",
+      "updatedAt": "2025-07-29T17:55:00.000Z",
+      "assets": {},
+      "keywordHighlight": {
+        "primaryColor": "#04f827FF",
+        "secondaryColor": "#FFFDO3FF",
+        "enabled": true
+      },
+      "fontSettings": {
+        "family": "Georgia",
+        "size": 44,
+        "color": "#FFFFFF",
+        "shadowColor": "#333333",
+        "shadowX": 1,
+        "shadowY": 1,
+        "shadowBlur": 2
+      },
+      "positioning": {
+        "default": "bottom",
+        "allowOverride": true
+      }
+    },
+    {
+      "id": "deep-driver",
+      "name": "Deep Driver",
+      "description": "Dramatic underline effect with word-by-word sync, great for storytelling",
+      "aspectRatio": "9:16",
+      "autoLayout": "center",
+      "defaultLines": 3,
+      "captionSettings": {
+        "animationStyle": "underline",
+        "font": {
+          "family": "Impact",
+          "size": 42,
+          "color": "#FFFFFF",
+          "case": "uppercase"
+        },
+        "position": "top",
+        "syncMode": "word",
+        "highlightWords": [],
+        "autoHighlight": true
+      },
+      "overlaySettings": {
+        "url": "",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 100, "height": 100 },
+        "opacity": 0
+      },
+      "introOutroSettings": {
+        "url": "",
+        "duration": 0
+      },
+      "aiEmojis": true,
+      "autoTransitions": true,
+      "createdAt": "2025-07-29T17:55:00.000Z",
+      "updatedAt": "2025-07-29T17:55:00.000Z",
+      "assets": {},
+      "keywordHighlight": {
+        "primaryColor": "#04f827FF",
+        "secondaryColor": "#FFFDO3FF",
+        "enabled": true
+      },
+      "fontSettings": {
+        "family": "Impact",
+        "size": 42,
+        "color": "#FFFFFF",
+        "shadowColor": "#000000",
+        "shadowX": 2,
+        "shadowY": 2,
+        "shadowBlur": 5
+      },
+      "positioning": {
+        "default": "top",
+        "allowOverride": true
+      }
+    },
+    {
+      "id": "popline",
+      "name": "Popline",
+      "description": "Vibrant slide-up animation with colorful styling, perfect for trendy content",
+      "aspectRatio": "9:16",
+      "autoLayout": "center",
+      "defaultLines": 2,
+      "captionSettings": {
+        "animationStyle": "slide-up",
+        "font": {
+          "family": "Bangers",
+          "size": 50,
+          "color": "#FF6B6B",
+          "case": "uppercase"
+        },
+        "position": "middle",
+        "syncMode": "line",
+        "highlightWords": [],
+        "autoHighlight": true
+      },
+      "overlaySettings": {
+        "url": "",
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 100, "height": 100 },
+        "opacity": 0
+      },
+      "introOutroSettings": {
+        "url": "",
+        "duration": 0
+      },
+      "aiEmojis": true,
+      "autoTransitions": true,
+      "createdAt": "2025-07-29T17:55:00.000Z",
+      "updatedAt": "2025-07-29T17:55:00.000Z",
+      "assets": {},
+      "keywordHighlight": {
+        "primaryColor": "#04f827FF",
+        "secondaryColor": "#FFFDO3FF",
+        "enabled": true
+      },
+      "fontSettings": {
+        "family": "Bangers",
+        "size": 50,
+        "color": "#FF6B6B",
+        "shadowColor": "#000000",
+        "shadowX": 2,
+        "shadowY": 2,
+        "shadowBlur": 4
+      },
+      "positioning": {
+        "default": "middle",
+        "allowOverride": true
+      }
+    }
+  ]
+}
